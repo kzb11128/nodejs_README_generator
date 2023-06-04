@@ -1,12 +1,5 @@
 # Description
-This application automatically generates a READE.md using your inputs to create the following sections:
-- Description
-- Installation
-- Usage
-- License
-- Contributing
-- Tests
-- Questions
+This application automatically generates a standard professional READE.md using your inputs in node.js command
 
 ## User Story
 ```
@@ -36,7 +29,9 @@ WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```
 ## Usage
-Uses the following code with the [Inquirer package](https://www.npmjs.com/package/inquirer/v/8.2.4).
+Uses the following code with:
+- [node.js](https://nodejs.org/en/download)
+- [Inquirer package](https://www.npmjs.com/package/inquirer/v/8.2.4).
 
 ```
 const inquirer = require('inquirer');
@@ -137,5 +132,5 @@ inquirer
   });
 ```
 
-## Links
+## Application Walkthrough Video 
 Link to the [walkthrough video](https://drive.google.com/file/d/1KcpAh_c57OwXm6xsMZoHVuHZrUEdnu9J/view)
